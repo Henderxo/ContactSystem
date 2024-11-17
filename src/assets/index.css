@@ -1,0 +1,54 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.modalBlock{
+    opacity: 100%;
+    background-color: white;
+}
+.button{
+    border: solid;
+    border-color: #0054A6;
+    background-color: #0054A6;
+    color:white;
+}
+.button:hover{
+    background-color: white;
+    color:#0054A6;
+}
+.data-block{
+    width: 1400px;
+    max-width: 1400px;
+    min-width: 1400px;
+    max-height: 500px;
+}
+.block{
+    width: 1400px;
+    max-width: 1400px;
+    min-width: 1400px;
+    height: 800px;
+    padding-top: 15px;
+}
+.truncate {   
+    white-space: nowrap;  
+    overflow: hidden;          
+    text-overflow: ellipsis; 
+    max-width: 700px;
+}
+.delete:hover{
+    background-color: white;
+    color:#A61A11;
+}
+.delete{
+    border: solid;
+    border-color: #A61A11;
+    background-color: #A61A11;
+    color:white;
+}
+.current{
+    background-color: white;
+    color:#0054A6;
+}
+.iconPointer{
+    cursor: pointer;
+}
