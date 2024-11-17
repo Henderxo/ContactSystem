@@ -69,5 +69,10 @@ cd path\to\pocketbase\folder
 ```sh
 ./pocketbase.exe serve
 ```
+### Step 4: Login into the contact system as a user
 
+```sh
+email: admin@admin.com
+password: adminadmin
+```
 
